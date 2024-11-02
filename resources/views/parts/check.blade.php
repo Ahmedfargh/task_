@@ -1,5 +1,6 @@
 <form action="" method="post"class="main_content container">
     <!----section question--->
+    @csrf
     <div class="first-section check-section row text-center">
         <p class="col-12">are fibros clean,dry and free of spills or obstructions?</p>
         <div class="col-3">
