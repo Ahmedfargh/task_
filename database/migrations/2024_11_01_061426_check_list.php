@@ -12,11 +12,10 @@ return new class extends Migration
     public function up(): void
     {
         //
-        Schema::create("check_process",function(Blueprint $table){
+        Schema::create("check_list",function(Blueprint $table){
             $table->id();
+            $table->string("check_list_question");
             $table->timestamps();
-            $table->string("inspector_name",64);
-
         });
     }
 
